@@ -9,8 +9,14 @@ import { UserSettingsModule } from './user-settings/user-settings.module';
 import { UserDataModule } from './user-settings/user-data/user-data.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, AppRoutingRoutingModule, UserSettingsModule,  UserDataModule],
-  declarations: [ AppComponent, NavigationComponent],
-  bootstrap:    [ AppComponent ]
+  imports: [
+    BrowserModule,
+    FormsModule,
+    AppRoutingRoutingModule,
+    UserSettingsModule,
+    UserDataModule,
+  ],
+  declarations: [AppComponent, NavigationComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
