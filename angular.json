@@ -22,10 +22,12 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+             "styles":[ 
+     "./node_modules/highlight.js/styles/default.css"
+     ],
+    "scripts": [
+     "./node_modules/highlight.js/lib/highlight.js"
+    ]
           },
           "configurations": {
             "production": {

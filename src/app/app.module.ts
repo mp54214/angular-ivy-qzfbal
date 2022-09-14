@@ -11,8 +11,7 @@ import { UserDataModule } from './user-settings/user-data/user-data.module';
 
 import {
   HighlightModule,
-  HIGHLIGHT_OPTIONS,
-  HighlightOptions,
+  HIGHLIGHT_OPTIONS
 } from 'ngx-highlightjs';
 
 @NgModule({
