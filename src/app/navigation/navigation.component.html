@@ -1,0 +1,18 @@
+<div>
+  <b>navigation works!</b>
+  <p>
+    <button [routerLink]="['err']">err</button>
+    <button routerLink="">home</button>
+    <button [routerLink]="['settings']">settings</button>
+    <button [routerLink]="['settings/profile']">user profile</button>
+   
+<!-- <a [routerLink]="['/', 'user', 'data', { outlets: { userdata: ['bar'] } }]">user data</a><br> -->
+
+    <button [routerLink]="['user', 2, { outlets: { userdata: ['data', 4] }}]">user data and sub component</button>
+
+  </p>
+</div>
+
+<router-outlet></router-outlet>
+<router-outlet name="userdata"></router-outlet>
+<router-outlet name="usersubdata"></router-outlet>

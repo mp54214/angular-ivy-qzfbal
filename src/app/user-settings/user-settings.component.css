@@ -1,0 +1,6 @@
+:host p {
+  border: 1px solid gray;
+  padding: 10px;
+  color: red;
+  background-color: rgb(146, 175, 209);
+}

@@ -1,0 +1,34 @@
+p {
+  font-family: Lato;
+}
+
+.main {
+ 
+}
+
+.nav {
+  border: 1px solid gray;
+  padding: 5px;
+  background-color: rgb(100, 236, 180);
+}
+
+.banner {
+  border: 1px solid gray;
+  padding: 5px;
+  background-color: rgb(236, 236, 180);
+}
+
+@media screen and (min-width: 500px) {
+  .nav {
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: rgb(200, 236, 180);
+  }
+
+  .main {
+    background-color: rgb(236, 236, 180);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 2px;
+  }
+}

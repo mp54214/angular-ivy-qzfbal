@@ -1,0 +1,29 @@
+<p>
+user-sub works - nested under userdata!
+</p>
+
+<code>
+...<br>
+    path: ':id',<br>
+    children: [<br>
+      &lcub;<br>
+        path: 'data/:id',<br>
+        component: UserDataComponent,<br>
+        outlet: 'userdata',<br>
+        // works if router-oulet in UserDataComponent<br>
+        children: [<br>
+          &lcub;<br>
+            path: '',<br>
+            component: UserSubComponent,<br>
+            outlet: 'usersubdata'<br>
+          &rcub;,<br>
+        ],<br>
+      &rcub;,<br>
+      &lcub; // works if router-oulet in nav-component<br>
+        path: '',<br>
+        component: UserSubComponent,<br>
+        outlet: 'usersubdata',<br>
+      &rcub;,<br>
+    ],<br>
+  &rcub;<br>
+</code>
