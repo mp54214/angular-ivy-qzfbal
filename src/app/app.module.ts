@@ -7,7 +7,13 @@ import { AppRoutingRoutingModule } from './app-routing.module';
 import { NavigationComponent } from './navigation/navigation.component';
 import { UserSettingsModule } from './user-settings/user-settings.module';
 import { UserDataModule } from './user-settings/user-data/user-data.module';
-import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
+// import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
+
+import {
+  HighlightModule,
+  HIGHLIGHT_OPTIONS,
+  HighlightOptions,
+} from 'ngx-highlightjs';
 
 @NgModule({
   imports: [
