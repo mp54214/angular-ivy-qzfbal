@@ -13,11 +13,11 @@ export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   apiLoaded: any
 
-// constructor(httpClient: HttpClient) {
-//     this.apiLoaded = httpClient.jsonp('https://unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js', 'callback')
-//         .pipe(
-//           map(() => true),
-//           catchError(() => of(false)),
-//         );
-//   }
+constructor(httpClient: HttpClient) {
+    this.apiLoaded = httpClient.jsonp('https://unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js', 'callback')
+        .pipe(
+          map(() => true),
+          catchError(() => of(false)),
+        );
+  }
 }

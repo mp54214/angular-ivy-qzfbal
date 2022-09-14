@@ -6,7 +6,6 @@ import { UserDataComponent } from './user-data.component';
 
 @NgModule({
   imports: [
-    // BrowserModule,
     CommonModule,
     UserDataRoutingModule
   ],
