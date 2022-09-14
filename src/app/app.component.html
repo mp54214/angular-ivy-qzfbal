@@ -1,4 +1,4 @@
-<section class="main">
+<section class="main" *ngIf="apiLoaded | async">
   <div class="nav">
     <app-navigation></app-navigation>
     <!-- <router-outlet name="userdata"></router-outlet> -->

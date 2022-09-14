@@ -8,6 +8,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { UserSettingsModule } from './user-settings/user-settings.module';
 import { UserDataModule } from './user-settings/user-data/user-data.module';
 
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -15,6 +17,8 @@ import { UserDataModule } from './user-settings/user-data/user-data.module';
     AppRoutingRoutingModule,
     UserSettingsModule,
     UserDataModule,
+     HttpClientModule,
+    HttpClientJsonpModule,
   ],
   declarations: [AppComponent, NavigationComponent],
   bootstrap: [AppComponent],
