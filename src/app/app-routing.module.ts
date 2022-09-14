@@ -13,7 +13,6 @@ const routes: Routes = [
       import('./user-settings/user-data/user-data.module').then(
         (m) => m.UserDataModule
       ),
-    
   },
   { path: '**', component: ErrorComponent },
 ];
