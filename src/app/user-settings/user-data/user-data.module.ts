@@ -10,6 +10,5 @@ import { UserDataComponent } from './user-data.component';
     UserDataRoutingModule
   ],
   declarations: [UserDataComponent, UserSubComponent],
-  // exports: [UserSubComponent]
 })
 export class UserDataModule { }
